@@ -7,3 +7,9 @@ preposition = ["down", "into", "up", "on", "upon", "below", "above", "through", 
 const randomIndex = (arr) => {
     return Math.floor(Math.random()*arr.length)
 }
+
+
+const sentence = `The ${adjectives[randomIndex(adjectives)]} ${nouns[randomIndex(nouns)]} ${adverbs[randomIndex(adverbs)]} ${verbs[randomIndex(verbs)]} ${nouns[randomIndex(nouns)]} ${adverbs[randomIndex(adverbs)]} ${verbs[randomIndex(verbs)]} ${preposition[randomIndex(preposition)]} ${adjectives[randomIndex(adjectives)]} ${nouns[randomIndex(nouns)]} and, turned into a ${adjectives[randomIndex(adjectives)]} ${nouns[randomIndex(nouns)]}.`
+
+
+console.log(sentence)
